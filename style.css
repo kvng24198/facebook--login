@@ -1,0 +1,115 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    margin:0 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fblogo{
+ height: auto;
+ width: 300px;
+}
+h1{
+    margin-bottom: -50px;
+   margin-left:-30px ;
+}
+form{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+/*  box-shadow: 10px 10px #E7E9EC, -10px -2px #E7E9EC;
+ */    flex-direction: column;
+    position: relative;
+}
+form::after{
+    content:"";
+    background-color:  #E7E9EC;
+    position: absolute;
+    top: 10px;
+    width: 105%;
+    height: 100%;
+    z-index: -3;
+ border-radius: 10px;
+}
+.container{
+    display: flex;
+    align-items:center ;
+}
+.item-right{
+    margin-left: 40px;
+
+}
+input{
+    width: 90%;
+    padding: 3px; 
+    height: 30px;     
+    margin: 5px;   
+}
+.login{
+    width: 370px;
+/*     padding: 10px;
+ */    height: 40px;
+   border-radius: 5px;
+background-color:#1877F2;
+color: white;
+font-weight: bold;
+border: none;
+justify-content: space-around;
+}
+a:link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #4877FF; 
+}
+.password{
+    text-align: center;
+    display: flex;
+    /*     margin-bottom: 20px;
+    */    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.line{
+    background-color:#cbcdd0f9;
+    height: 1px;
+    width: 400px;
+    margin: 20px 0;
+}
+button{
+    background-color: #36A420;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+   align-items: center;
+   width: 200px;
+   padding-left: 20px;
+   margin-bottom: 20px;
+   margin-top: 0px;
+    border: none;
+}
+.page{
+    font-size:15px;
+    text-align: center;
+}
+.page a{
+    text-decoration: none;
+    color: black;
+font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
